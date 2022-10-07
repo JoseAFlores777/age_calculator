@@ -11,15 +11,108 @@
     >
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="244dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_corner"
         android:fontFamily="@font/open_sans_extra_bold"
         android:includeFontPadding="false"
         android:padding="10sp"
+        android:rotation="-6"
+        android:text="Convert"
+        android:textAlignment="center"
+        android:textColor="@color/soft"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_extra_bold"
+        android:includeFontPadding="false"
+        android:padding="7sp"
         android:text="Your Age in Minutes"
         android:textAlignment="center"
         android:textColor="@color/dark_soft"
         android:textSize="40sp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="11dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Date of birth:"
+        android:textAlignment="center" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Click to select date" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/txtDateSelected"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_semi_bold"
+        android:includeFontPadding="false"
+        android:padding="7sp"
+        android:text="----"
+        android:textAlignment="center"
+        android:textColor="@color/dark_soft"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Selected Date"
+        android:textColor="@color/secondary"
+        android:textAlignment="center" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/txtTotalMinutes"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_extra_bold"
+        android:includeFontPadding="false"
+        android:padding="7sp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/principal_dark"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="In minutes till date"
+        android:textColor="@color/secondary"
+        android:textAlignment="center" />
 
 </LinearLayout>
